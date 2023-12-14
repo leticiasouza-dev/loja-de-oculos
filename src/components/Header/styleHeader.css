@@ -1,0 +1,38 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header img{
+    width: 13rem;
+}
+
+nav{
+    width: 30%;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    list-style-type: none; /*para retirar as marcações da lista*/
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 760px){
+    header{
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    nav{
+        width: 100%;
+    }
+
+    nav > ul{
+    
+        align-items: center;
+    }
+}
+
