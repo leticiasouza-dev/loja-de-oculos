@@ -1,9 +1,14 @@
 import React from "react";
 import { SessaoBanner } from "../SessaoBanner/indexBanner";
+import { SessaoProdutos } from "../SessaoProdutos/indexProdutos";
 
 function Main(){
     return(
-        <SessaoBanner/>
+        <main>
+            <SessaoBanner />
+            <SessaoProdutos />
+        </main>
+        
     )
 }
 
