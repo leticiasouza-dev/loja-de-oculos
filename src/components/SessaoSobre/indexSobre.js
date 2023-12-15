@@ -3,13 +3,13 @@ import './styleSobre.css';
 
 export function SessaoSobre(){
     return(
-        <section>
+        <section className='sessaoSobre'>
             <h2>Quem somos nós?</h2>
-            <p>Fundada em 2001, em Nova Iguaçu - Rio de Janeiro, a Óticas vida iniciou suas atividades focada no atendimento ao 
-                público de renda mais baixa, sempre com o objetivo de proporcionar ao cliente bom atendimento, qualidade e preço baixo. 
-            </p>
+            <p>Fundada em 2001, em Nova Iguaçu - Rio de Janeiro, a Óticas vida iniciou suas atividades focada no atendimento ao público de </p>
+            <p>renda mais baixa, sempre com o objetivo de proporcionar ao cliente bom atendimento, qualidade e preço baixo.</p> 
+            
 
-            <div>
+            <div className='containerSobre'>
                 <div><img src='/assets/imgs/loja.png' alt=''/></div>
                 <div>
                     <h3>Nossas filiais</h3>
