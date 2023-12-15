@@ -1,3 +1,52 @@
-/*section{
+.sessaoBanner{
     background-image: url('/public/assets/imgs/capa.png');
-}*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 40rem;
+
+   height: 100vh;
+
+   position: relative;
+}
+
+.tituloBanner{
+    color: white;
+
+    position: absolute;
+    top: 10rem;
+    left: 13rem;
+
+    width: 25rem;
+}
+
+.tituloBanner p{
+    font-size: 2.5rem;
+}
+
+.tituloBanner h1{
+    font-size: 4rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1270px) { /*estilização para celular e tablet*/
+    .sessaoBanner{
+        background-size: cover;
+        height: 29vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tituloBanner{
+        position: initial;
+        
+    }
+
+    .tituloBanner p{
+        font-size: 1.2rem;
+    }
+
+    .tituloBanner h1{
+        font-size: 1.8rem;
+    }
+}
