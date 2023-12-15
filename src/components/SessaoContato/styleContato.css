@@ -9,10 +9,22 @@
     padding: 4rem 0;
 }
 
+.sessaoContato h2{
+    padding-bottom: 1rem;
+}
+
 .containerContato{
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
+}
+
+.contato, .redesSociais{
+    padding-top: 1rem;
+}
+
+.containerContato h4{
+    padding-bottom: 1rem;
 }
 
 .containerContato ul{
